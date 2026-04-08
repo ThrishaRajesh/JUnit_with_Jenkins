@@ -8,6 +8,6 @@ public class GreatestNumberTest {
     @Test
     void testGreatest() {
         GreatestNumber obj = new GreatestNumber();
-        assertEquals(5, obj.findGreatest(5, 10));
+        assertEquals(10, obj.findGreatest(10, 5));
     }
 }
